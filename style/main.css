@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+body {
+  background-color: #fff;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  flex-wrap: nowrap;
+}
+
+/* #temp {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0.7;
+} 
+*/
+
+main {
+  height: 513px;
+  width: 734px;
+  border: none;
+  border-radius: 2px;
+  display: flex;
+  background-color: #fff;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  /* border-radius: 8px; */
+  /* border: 2px solid #000; */
+  border-radius: 33px;
+  /* display: none;*/
+  box-shadow: 10px 6px 15px 2px #d9d9d966;
+}
+
+.Your_Result_Panal {
+  background-color: blue;
+  height: 100%;
+  width: 367px;
+  border-radius: 33px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  background: rgb(120, 87, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(120, 87, 255, 1) 0%,
+    rgba(46, 43, 233, 1) 100%
+  );
+}
+
+.Your_Result_Panal .title {
+  margin-top: 37px;
+  font-size: 25px;
+  word-spacing: 0px;
+
+  font-weight: 500;
+  /* display: none; */
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  width: 172px;
+  /* background: #090; */
+  justify-content: center;
+  margin-right: 8px;
+  color: hsl(221, 100%, 96%);
+}
+
+.Your_Result_Panal .score {
+  width: 200px;
+  height: 200px;
+  /* background-color: rgb(238, 127, 0); */
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 33px;
+  padding-right: 4px;
+  background: linear-gradient(180deg, rgb(37 16 95 / 58%) 0%, #2421ca00 103%);
+}
+
+.scoreNumber {
+  margin-top: 45px;
+  font-size: 72px;
+  font-weight: 800;
+  color: #fff;
+}
+
+.persent {
+  margin-top: -6px;
+  font-weight: 600;
+  font-size: 17px;
+  color: hsl(221deg 100% 96% / 58%);
+}
+
+.Your_Result_Panal .gread {
+  font-size: 32px;
+  font-weight: 500;
+  margin-top: 28px;
+  border-radius: 28px;
+  word-spacing: 0px;
+
+  font-weight: 700;
+  margin-right: 8px;
+  color: #fff;
+}
+
+.Your_Result_Panal .insght_Advise {
+  margin: 14px;
+  color: hsl(221deg 5.2% 77.73%);
+}
+
+.Advise {
+  font-size: 18px;
+}
+
+.discrption {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  width: calc(100% - 365px);
+  /* background: #090; */
+  height: 100%;
+  border-radius: 28px;
+  padding-left: 42px;
+  padding-top: 39px;
+}
+
+.Summary {
+  word-spacing: 0px;
+
+  font-weight: 700;
+  font-size: 23.3px;
+  margin-bottom: 28px;
+}
+
+.skill_box {
+  background: #090;
+  width: 286px;
+  height: 56px;
+  margin-bottom: 16px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* - Light red: hsl(0, 100%, 67%)
+- Orangey yellow: hsl(39, 100%, 56%)
+- Green teal: hsl(166, 100%, 37%)
+- Cobalt blue: hsl(234, 85%, 45%) */
+
+.skill_box svg {
+  margin-left: 13px;
+}
+
+.skill {
+  word-spacing: 0px;
+
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.deage {
+  font-weight: bold;
+  font-size: 18px;
+  color: #ada8af;
+}
+
+.Reaction {
+  color: hsl(0, 100%, 67%);
+  margin-left: 13px;
+  margin-right: 82px;
+}
+.Memory {
+  color: hsl(39, 100%, 56%);
+  margin-left: 15px;
+  margin-right: 82px;
+}
+.Verbal {
+  color: hsl(166, 100%, 37%);
+  margin-left: 13px;
+  margin-right: 99px;
+}
+.Visual {
+  color: hsl(234, 85%, 45%);
+  margin-left: 12px;
+  margin-right: 103px;
+}
+
+.Your_deg {
+  color: #000;
+}
+
+.Reaction_box {
+  background-color: #fff6f5;
+}
+.Memory_box {
+  background-color: #fffbf2;
+}
+.Verbal_box {
+  background-color: #f2fbfa;
+}
+.Visual_box {
+  background-color: #f3f3fd;
+}
+
+.But_Continue {
+  border: none;
+  background: #303b59;
+  width: 286px;
+  margin-top: 25px;
+  height: 57px;
+  border-radius: 27px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+}
+
+@media only screen and (max-width: 375px) {
+  body {
+    align-items: flex-start;
+  }
+  main {
+    height: 100%;
+    width: 100vw;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 0px;
+    box-shadow: none;
+  }
+
+  .Your_Result_Panal {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+}

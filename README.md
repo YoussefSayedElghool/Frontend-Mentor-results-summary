@@ -1,1 +1,7 @@
-# Frontend_Mentor_results_summary
+# Frontend Mentor - Results summary component
+
+## Welcome! 👋
+
+## My Slotion live Linke
+
+###
